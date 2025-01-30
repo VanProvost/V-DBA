@@ -17,7 +17,7 @@ ORDER BY vendor_id;
 -- Selecting only the vendor_name, vendor_phone, and vendor_city columns from the vendors table
 SELECT vendor_name, vendor_phone, vendor_city FROM vendors
 -- Query only the vendors located in 'CA'
-WHERE vendor_city = 'CA'
+WHERE vendor_state = 'CA'
 -- Sort the table by vendor name
 ORDER BY vendor_name;
 
@@ -69,11 +69,11 @@ ORDER BY vendors.vendor_name;
 -- Using the ex database for this question
 USE ex;
 -- Query department_name and employees last_name
-SELECT department_name, last_name FROM departments
+SELECT department_name, last_name FROM employees
 -- Use LEFT OUTER JOIN to list all department_names with employees last_name, even if employee does not have a department
-LEFT OUTER JOIN employees ON departments.last_name = employees.last_name
+LEFT OUTER JOIN departments ON employees.department_number = departments.department_number
 -- Sort by department_id
-ORDER BY departments.department_id;
+ORDER BY departments.department_number;
 
 -- Question 9:
 
