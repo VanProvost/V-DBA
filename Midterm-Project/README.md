@@ -37,7 +37,6 @@ Indent subqueries by 2 spaces for better clarity.
 - Example:
 
 ```sql
-sql
 Copy
 Edit
 SELECT first_name, last_name
