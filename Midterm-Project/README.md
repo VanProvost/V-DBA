@@ -37,8 +37,6 @@ Indent subqueries by 2 spaces for better clarity.
 - Example:
 
 ```sql
-Copy
-Edit
 SELECT first_name, last_name
 FROM employees
 WHERE department = 'Sales'
@@ -48,8 +46,6 @@ ORDER BY last_name;
 - Example with Join:
 
 ```sql
-Copy
-Edit
 SELECT e.first_name, e.last_name, d.department_name
 FROM employees e
 INNER JOIN departments d ON e.department_id = d.id
@@ -60,8 +56,6 @@ ORDER BY e.last_name;
 - Example with Subquery:
 
 ```sql
-Copy
-Edit
 SELECT first_name, last_name
 FROM employees
 WHERE department_id IN (
