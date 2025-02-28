@@ -32,7 +32,7 @@ When joining tables, align JOIN clauses with the main query.
 
 #### Subqueries
 
-Indent subqueries by 2 spaces for better clarity.
+Indent subqueries by 3 spaces(or tab) for better clarity.
 
 - Example:
 
