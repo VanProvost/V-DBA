@@ -1,0 +1,6 @@
+user_id,first_name,last_name,email,phone_number,user_details_id,_subscription_id
+1,John,Sequl,jon.sql@outlook.com,6532220942,1,1
+2,Alice,Smith,alsmith@gmail.com,5420157924,2,2
+3,Van,Provost,a00311818@mycambrian.ca,7058892020,3,3
+4,Bruce,Wayne,notbatman123@yahoo.com,3218750123,4,4
+5,Forcht, Laest, real-person@customdomain.us,1234567890,5,5
