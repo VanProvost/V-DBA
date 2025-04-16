@@ -1,3 +1,5 @@
+    USE bks;
+
 -- Task 1: Create Views
 
 -- This view shows the bestselling books ranked by number of copies sold.
