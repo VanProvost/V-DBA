@@ -1,4 +1,5 @@
-# task 4 
+*/Task 4: Create a trigger that updates the stock of books in the books table when a new invoice is created. */
+
 delimiter // 
 Create Trigger update_inv_for_orders
 After Insert ON invoices 

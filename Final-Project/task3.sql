@@ -1,5 +1,5 @@
-# task 3
-
+*/ Task 3: This procedure will insert a new invoice into the invoices table. If the insert fails, it will roll back the transaction and return an error message. 
+If the insert is successful, it will commit the transaction and return a success message. */
 
 DELIMITER //
 DROP PROCEDURE ProcessSale;
